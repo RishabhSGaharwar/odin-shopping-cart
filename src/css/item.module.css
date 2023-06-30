@@ -1,0 +1,142 @@
+.container{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    width: 25em;
+    height: auto;
+    justify-content: start;
+    align-items: center;
+    box-shadow: 0 0 5px gray;
+}
+
+.fruitImage{
+    width: 25em;
+    height: 25em;
+}
+
+.cardImage{
+    height: 25em;
+    width: 25em;
+    object-fit: cover;
+}
+
+.cardName{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(255, 231, 231);
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.8em;
+    padding-top: 0.3em;
+    padding-bottom: 0.3em;
+}
+
+.cardPrice{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(97, 97, 97);
+    font-size: 1.4em;
+    background-color: cornsilk;
+    width: 95%;
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+    text-align: right;
+}
+
+.row3{
+    background-color: cornsilk;
+    align-items: end;
+    width: 100%;
+}
+
+.cart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    width: 100%;
+    background-color: rgb(255, 248, 239);
+}
+
+.add{
+    border-style: none;
+    border-radius: 5px;
+    background-color: deepskyblue;
+    color: whitesmoke;
+    font-size: 1.5em;
+    padding-top: 0.5em;
+    margin-top: 0.7em;
+    margin-bottom: 0.7em;
+    padding-bottom: 0.5em;
+    width: 70%;
+    transition: all 0.1s;
+
+}
+
+.add:hover{
+    filter: brightness(95%);
+    cursor: pointer;
+}
+
+.incart{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+.row1{
+    display: flex;
+    justify-content: center;
+}
+
+.qtybtn{
+    border-style: none;
+    border-radius: 5px;
+    background-color: deepskyblue;
+    color: whitesmoke;
+    font-size: 1.5em;
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+    width: 1.5em;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+    transition: all 0.1s;
+}
+
+.qtybtn:hover{
+    filter: brightness(95%);
+    cursor: pointer;
+}
+
+.remove{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.row2{
+    margin-top: 0.45em;
+    border-style: none;
+    border-radius: 5px;
+    background-color: deepskyblue;
+    color: whitesmoke;
+    font-size: 1.5em;
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+    width: 60%;
+    transition: all 0.1s;
+}
+
+.row2:hover{
+    filter: brightness(95%);
+    cursor: pointer;
+}
+
+.cartStatus{
+    align-content: center;
+    padding-top: 0.4em;
+    padding-bottom: 0.4em;
+    font-size: 1.2em;
+    color: rgba(25, 25, 25, 0.75);
+}

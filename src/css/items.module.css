@@ -1,0 +1,49 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content:start;
+}
+
+.sideBar{
+    background-color:floralwhite;
+    width: 20%;
+    padding-top: 5em;
+    font-size: 2em;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: darkorange;
+    font-style: oblique;
+    font-weight: 200;
+    padding-left: 0.2em;
+    padding-right: 0.2em;
+}
+
+.products{
+    width: 80%;
+}
+
+.fruitList{
+    display: grid;
+    grid-template-columns: 25em 25em 25em;
+    grid-auto-rows: auto;
+    gap: 3.5em;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5emem;
+    padding-top: 5em;
+    padding-bottom: 5em;
+}
+
+.title{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bolder;
+    font-size: 3em;
+    padding-top: 2em;
+    padding-bottom: 0.5em;
+    padding-left: 2em;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+.title:hover{
+    text-shadow: 0 0 1px black;
+}

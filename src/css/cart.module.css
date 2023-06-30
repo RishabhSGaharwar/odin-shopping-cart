@@ -1,0 +1,153 @@
+.cartPage{
+    display: flex;
+    justify-content: end;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    align-content: center;
+}
+
+.backdrop{
+    flex-basis: 100%;
+    z-index: 10000;
+}
+
+.wrapper{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    z-index: 10001;
+    background-color: rgba(245, 245, 245, 1);
+    justify-content: space-between;
+    animation: slide 0.5s ease-in;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    height: 8em;
+    align-content: center;
+}
+
+.headerText{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5em;
+    margin-left: 1em;
+    font-style: oblique;
+    margin-top: 0.5em;
+    text-align: left;
+    margin-bottom: 0.5em;
+    font-weight: bold;
+}
+
+.close{
+    height: 1em;
+    width: 1em;
+    margin-right: 0.75em;
+}
+
+.close:hover{
+    cursor: pointer;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-basis: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.totalWrapper{
+    height: 8em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-top: 5px;
+}
+
+.totalPrice{
+    height: 2em;
+    text-align: right;
+    padding-right: 1em;
+    padding-top: 0.5em;
+    font-size: 1.2em;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 100%;
+    color: gray;
+    font-style: italic;
+}
+
+.checkout{
+    border-style: solid;
+    text-align: center;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    width: 30%;
+    color: white;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    background-color: black;
+    font-size: 1.5em;
+    border-radius: 10px;
+    transition: all 0.5s;
+}
+
+.checkout:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+.emptyWrapper{
+    height: 8em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-top: 5px;
+}
+
+.emptyText{
+    height: 2em;
+    text-align: right;
+    padding-right: 1em;
+    padding-top: 0.5em;
+    font-size: 1.2em;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 100%;
+    font-style: italic;
+}
+
+.browse{
+    border-style: solid;
+    text-align: center;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    width: 30%;
+    color: white;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    background-color: black;
+    font-size: 1.5em;
+    border-radius: 10px;
+    transition: all 0.5s;
+}
+
+.browse:hover, .empty:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+@keyframes slide{
+    0% {transform: translateX(100%);}
+    100%{transform: translateX(0%);}
+}
+
+@keyframes backdrop-slide{
+    0% {transform: translateX(100%);}
+    100%{transform: translateX(0%);}
+}
