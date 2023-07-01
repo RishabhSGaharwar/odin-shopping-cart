@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/odin-shopping-cart/static/css/main.5db2658f.css",
+    "main.js": "/odin-shopping-cart/static/js/main.717ee7a2.js",
+    "static/media/guava.jpg": "/odin-shopping-cart/static/media/guava.be010a6d424157e2acb2.jpg",
+    "static/media/pear.jpg": "/odin-shopping-cart/static/media/pear.850aa31e20e97b4d70bc.jpg",
+    "static/media/strawberry.jpg": "/odin-shopping-cart/static/media/strawberry.90f99ee530882002a20b.jpg",
+    "static/media/blackgrapes.jpg": "/odin-shopping-cart/static/media/blackgrapes.abc329c8cffa02529bb5.jpg",
+    "static/media/litchi.jpg": "/odin-shopping-cart/static/media/litchi.93d97994209ae4aaffa7.jpg",
+    "static/media/pomegranate.jpg": "/odin-shopping-cart/static/media/pomegranate.4acc3e1fbcc8fd674ad5.jpg",
+    "static/media/avocado.jpg": "/odin-shopping-cart/static/media/avocado.b1cf1214de7c20aa7f53.jpg",
+    "static/media/cherry.jpg": "/odin-shopping-cart/static/media/cherry.c03719fb7b2ea2c7dd35.jpg",
+    "static/media/kiwi.jpg": "/odin-shopping-cart/static/media/kiwi.7cbd78761449a12ae77a.jpg",
+    "static/media/pineapples.jpg": "/odin-shopping-cart/static/media/pineapples.96625f98f6c544d09ef1.jpg",
+    "static/media/papaya.jpg": "/odin-shopping-cart/static/media/papaya.33cc20941738c7a0d000.jpg",
+    "static/media/greenapple.jpg": "/odin-shopping-cart/static/media/greenapple.92263fce2756cd0ab934.jpg",
+    "static/media/apple.jpg": "/odin-shopping-cart/static/media/apple.f54a4a5d16d52dd81601.jpg",
+    "static/media/orange.jpg": "/odin-shopping-cart/static/media/orange.441af7c602008a038aa4.jpg",
+    "static/media/grapes.jpg": "/odin-shopping-cart/static/media/grapes.35d1e0e7640236d40f07.jpg",
+    "static/media/dragonfruit.jpg": "/odin-shopping-cart/static/media/dragonfruit.93826be3cc10e7d91755.jpg",
+    "static/media/banana.jpg": "/odin-shopping-cart/static/media/banana.778b8adc482c8bc715f5.jpg",
+    "static/media/mango.jpg": "/odin-shopping-cart/static/media/mango.3ef6def0ad82e99f56c2.jpg",
+    "static/media/peaches.jpg": "/odin-shopping-cart/static/media/peaches.af3173d91b7b1781bb3f.jpg",
+    "static/media/rawmango.jpg": "/odin-shopping-cart/static/media/rawmango.70b9bb5f423dfb92f8d5.jpg",
+    "static/media/watermelon.jpg": "/odin-shopping-cart/static/media/watermelon.cb09b28ca132260e79d3.jpg",
+    "static/media/cranberry.jpg": "/odin-shopping-cart/static/media/cranberry.3e23a6149721ee0f6ed9.jpg",
+    "static/media/raspberry.jpg": "/odin-shopping-cart/static/media/raspberry.8886f3ab263e220207be.jpg",
+    "static/media/fruitbasket.jpg": "/odin-shopping-cart/static/media/fruitbasket.61c46b3d434a86324346.jpg",
+    "static/media/blueberry.jpg": "/odin-shopping-cart/static/media/blueberry.1828b1e75648a87b7ab3.jpg",
+    "static/media/cart.jpg": "/odin-shopping-cart/static/media/cart.935afefe58aef32eab6f.jpg",
+    "static/media/search.png": "/odin-shopping-cart/static/media/search.413cba30a324c726d462.png",
+    "static/media/close.png": "/odin-shopping-cart/static/media/close.c6d086709de9b7d21bd4.png",
+    "index.html": "/odin-shopping-cart/index.html",
+    "main.5db2658f.css.map": "/odin-shopping-cart/static/css/main.5db2658f.css.map",
+    "main.717ee7a2.js.map": "/odin-shopping-cart/static/js/main.717ee7a2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5db2658f.css",
+    "static/js/main.717ee7a2.js"
+  ]
+}
