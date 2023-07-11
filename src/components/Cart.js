@@ -5,6 +5,7 @@ import styles from "../css/cart.module.css";
 import Close from "../images/home/close.png"
 // import {OffCanvas} from "react-bootstrap";
 import * as ReactDOM from "react-dom";
+import { Link } from "react-router-dom";
 
 function Cart(props){
     const format = (amount) => {
@@ -27,7 +28,7 @@ function Cart(props){
                 Your<br/>Shopping<br/> Cart
                 </div>
                 <button className={styles.closeBtn} onClick={props.hideCart}>
-                    <img src = {Close} alt = "Close" className={styles.close} onClick={() => props.hideCart()}/>
+                    <img src = {Close} alt = "Close" className={styles.close} onClick={() => props.hideCart()} loading="lazy"/>
                 </button>
             </div>
             <div className={styles.content}>
@@ -43,12 +44,12 @@ function Cart(props){
                 (
                     <div className={styles.totalWrapper}>
                     <div className={styles.totalPrice}>Total: {format(props.amount)}</div>
-                    <div className={styles.checkout} onClick={(e) => {e.preventDefault(); window.location.href = "/"}}>Checkout</div>
+                    <Link to={"/"} className={styles.browse}><div onClick={() => props.hideCart()}>Checkout</div></Link>
                     </div>
                 ):(
                     <div className={styles.emptyWrapper}>
                     <div className={styles.emptyText}>Your Cart is Empty</div>
-                    <div className={styles.browse} onClick={(e) => {e.preventDefault(); window.location.href = "/items"}}>Browse</div>
+                    <Link to={"/items"} className={styles.browse}><div onClick={() => props.hideCart()}>Browse</div></Link>
                     </div>
                 )
             }

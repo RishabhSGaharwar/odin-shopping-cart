@@ -12,7 +12,7 @@ function CartItem(props){
     return(
         <div className={style.container}>
             <div className={style.imageHolder}>
-                <img src={props.imgUrl} alt = {props.name} className= {style.Img}/>
+                <img src={props.imgUrl} alt = {props.name} className= {style.Img} loading="lazy"/>
             </div>
             <div className={style.text}>
                 <div className={style.title}>

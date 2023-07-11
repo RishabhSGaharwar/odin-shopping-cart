@@ -27,7 +27,7 @@ class Navbar extends Component{
                     <Link to="/items" className = {styles.items}>Items</Link>
 
                     <button className={styles.cartBtn} onClick={() => {this.props.findAmount(); this.props.showCart()}}>
-                        <img src={CartImage} alt="Cart" className={styles.CartImage}/>{
+                        <img src={CartImage} alt="Cart" className={styles.CartImage} loading="lazy"/>{
                             (this.props.cart!==undefined && this.props.cart.length>0)?this.renderQty():null
                         }
                     </button>

@@ -43,7 +43,7 @@ function Item(props){
     return(
         <div className={styles.container}>
             <div className={styles.fruitImage}>
-                <img src={imgUrl} className={styles.cardImage} alt = {name}/>
+                <img src={imgUrl} className={styles.cardImage} alt = {name} loading="lazy"/>
             </div>
             <div className={styles.cardName}>{name}</div>
             <div className={styles.row3}>
