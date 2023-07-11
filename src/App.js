@@ -3,7 +3,6 @@ import { Component } from "react";
 import { Route, Routes, HashRouter } from "react-router-dom";
 import {Home} from "./pages/Home";
 import {Items} from "./pages/Items";
-import {About} from "./pages/About";
 import { Navbar } from "./components/Navbar";
 import { Cart } from "./components/Cart";
 import {data} from "./data/items";
