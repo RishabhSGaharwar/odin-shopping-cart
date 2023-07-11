@@ -2,7 +2,6 @@ import React from "react";
 import { Component } from "react";
 import { Link } from "react-router-dom";
 import styles from "../css/navbar.module.css";
-import SearchImage from "../images/navbar/search.png";
 import CartImage from "../images/navbar/cart.jpg"
 
 class Navbar extends Component{

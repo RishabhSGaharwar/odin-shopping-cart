@@ -1,7 +1,6 @@
 import React from "react";
 import styles from "../css/item.module.css";
 
-
 function Item(props){
     const name = props.name;
     const imgUrl = props.imgUrl;
