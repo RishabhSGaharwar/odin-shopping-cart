@@ -100,7 +100,6 @@ class App extends Component {
         <Routes>
           <Route path="/" element = {<Home />}/>
           <Route path="/items" element = {<Items addToCart={this.addToCart} updateQty = {this.updateQty} content={this.state.content}/>}/> 
-          <Route path="/about" element = {<About />}/>
         </Routes>
       </>
     )
