@@ -23,8 +23,8 @@ class Navbar extends Component{
                     </Link>
                     <div className={styles.right}>
 
-                    <a href="/#/" className = {styles.home}>Home</a>
-                    <a href="/#/items" className = {styles.items}>Items</a>
+                    <Link to="/" className = {styles.home}>Home</Link>
+                    <Link to="/items" className = {styles.items}>Items</Link>
 
                     <button className={styles.cartBtn} onClick={() => {this.props.findAmount(); this.props.showCart()}}>
                         <img src={CartImage} alt="Cart" className={styles.CartImage}/>{
