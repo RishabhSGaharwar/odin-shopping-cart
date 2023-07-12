@@ -19,8 +19,4 @@ Styling done using CSS
 Image credits:
 [Unsplash](https://www.unsplash.com), [Pexels](https://www.pexels.com), [Pixabay](https://www.pixabay.com)
 
-<<<<<<< HEAD
 Built as a part of The Odin Project
-=======
-Built as a part of The Odin Project
->>>>>>> 563e3a5 (Bug fixes)
