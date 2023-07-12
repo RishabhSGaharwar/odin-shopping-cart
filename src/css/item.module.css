@@ -2,7 +2,7 @@
     margin: 0;
     display: flex;
     flex-direction: column;
-    width: 25em;
+    width: 100%;
     height: auto;
     justify-content: start;
     align-items: center;
@@ -10,14 +10,17 @@
 }
 
 .fruitImage{
-    width: 25em;
-    height: 25em;
+    object-fit: cover;
+    overflow: hidden;
+    width: 100%;
+    height: 20em;
 }
 
 .cardImage{
-    height: 25em;
-    width: 25em;
+    height: inherit;
+    width: inherit;
     object-fit: cover;
+    overflow: hidden;
 }
 
 .cardName{
@@ -70,7 +73,6 @@
     padding-bottom: 0.5em;
     width: 70%;
     transition: all 0.1s;
-
 }
 
 .add:hover{

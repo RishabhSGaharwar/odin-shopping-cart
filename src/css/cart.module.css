@@ -8,6 +8,7 @@
     bottom: 0;
     background-color: rgba(0, 0, 0, 0.6);
     align-content: center;
+    z-index: 10000;
 }
 
 .backdrop{

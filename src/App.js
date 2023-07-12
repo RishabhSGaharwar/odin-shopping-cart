@@ -28,7 +28,6 @@ class App extends Component {
   };
 
   findAmount = () => {
-    console.log("HI", this.state.content);
     if(this.state.content.length===0){
       this.setState({amount: 0});
     }
@@ -82,7 +81,6 @@ class App extends Component {
       const currentcontent = this.state.content;
       await this.setState({content: [...currentcontent, objectInsert]});
     }
-    console.log(this.state.content);
   }
 
   showCart = () => {

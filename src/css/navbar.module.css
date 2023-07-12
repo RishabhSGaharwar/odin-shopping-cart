@@ -6,6 +6,8 @@
     font-size: 1.3em;
     height: 3em;
     position: sticky;
+    width: 100%;
+    z-index: 1000;
 }
 
 .navbar{
@@ -38,24 +40,6 @@ button{
     color: white;
 }
 
-.searchWrapper{
-    /* border-style: solid; */
-    height: 100%;
-    /* border-color: white; */
-    display: flex;
-    align-items: center;
-    flex-basis: 100%;
-    justify-content: right;
-}
-
-.searchBtn{
-    border-style: solid;
-    border-color: white;
-    border-radius: 10px;
-    background-color: white;
-    height: 2.5em;
-}
-
 a{
     font-family: 'Poppins', sans-serif;
     text-decoration: none;
@@ -76,17 +60,6 @@ a:hover{
     position: relative;
     cursor: pointer;
     box-shadow: 0 0 10px darkgrey;
-}
-
-.SearchImage{
-    height: 1.25em;
-    cursor: pointer;
-}
-
-.search{
-    width:100%;
-    height: 2em;
-    border-radius: 10px;
 }
 
 .CartImage{
